@@ -87,6 +87,8 @@ tar --create \
     pdfium_nif.so \
     "$pdfium_directory_name/lib/libpdfium.dylib"
 
+pwd
+
 # 6. Test (testing is commented out)
 # tar --extract --directory=$test_directory_name --file=$output_name
 # cp test.exs $test_directory_name
